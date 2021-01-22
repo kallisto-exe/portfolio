@@ -140,12 +140,15 @@ font-weight: bold;
   display:grid;
   grid-template-columns: 33% 33% 33%;
 }
+  @media (max-width:800px){
+   #gallery-container{
+  grid-template-columns: 100%;
+  }
+  }
+  
 @media (max-width:400px){
   img-caption{
     font-size:1rem;
-  }
-  #gallery-container{
-  grid-template-columns: 100%;
   }
 }
 a {
