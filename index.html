@@ -1,0 +1,252 @@
+<html>
+<head>
+<style>html{
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+   text-align: center;
+  margin: 0;
+  color: #333;
+  font-size: 1.6rem;
+ padding:0px;
+}
+#main{
+
+background-image:url(keisuke-higashio-CwpIFdB80TQ-unsplash.jpg);
+  border-radius: 10px;
+ line-height: 1.5;
+  margin: 30px 8px 30px 8px;
+  padding: 15px;
+ 
+  border-radius: 10px;
+  background-attachment: fixed;
+}
+#title{
+  font-size:4.6rem;
+ background-color: rgb(255, 197, 174);
+   
+  margin-bottom: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#undertitle{
+  font-size:2rem;
+  background-color:gainsboro;
+  padding:8px 0px; 
+  }
+#img-div {
+  background: rgb(240, 233, 233);
+  padding: 10px;
+  margin: 0;
+  
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+#headline{
+ 
+ font-size:2.5rem;
+  
+  text-align: center;
+  
+}
+p{
+  font-size:2rem;
+  background-color: gainsboro;
+ 
+}
+section{
+  display:inline-block;
+  background-color: rgb(255, 197, 174);
+  margin: 50px 0 0 0;
+  padding:0px 0px 30px 0px;
+  width: 74%;
+  border-radius:6px;
+}
+@media (max-width:1000px){
+  section{
+    width:90%;
+  }
+}
+iframe{
+  margin-bottom:10px;
+  border-style: none;
+  
+}
+#top-vid{
+  width: 100%; 
+  height: 450px;
+}
+#gallery{
+  margin:2px 15px; 
+  height: 300px;
+}
+#listname{
+  padding:8px 0px;
+}
+
+footer{
+
+  background-color: black;
+  margin-top:30px;
+  color:gainsboro;
+  margin-bottom:0px;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+#playlist{
+  overflow:auto;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:100%;
+  justify-items:center;
+}
+@media (max-width:700px){
+  #playlist{
+    grid-template-columns: 100%;
+  }
+}
+ul{
+   max-width: 550px;
+  margin: 0 auto 50px auto;
+  
+  line-height: 1.6;
+}
+
+#track{
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ margin:0px 5px;
+}
+#label{
+  background-color:gainsboro ;
+margin-left:6px;
+padding:6px 10px;
+width:200px;
+font-weight: bold;
+}
+#gallery-container{
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+}
+@media (max-width:400px){
+  img-caption{
+    font-size:1rem;
+  }
+}
+a {
+  color: hsl(180, 70%, 30%);
+}
+
+a:visited {
+  color: hsl(180, 0%, 30%);
+}
+</style>
+</head>
+<body>
+    <main id="main">
+      <header>
+      <h1 id="title">Music portfolio</h1>
+      <p id="undertitle"> Alisa Stepchuk</p>
+        </header>
+      <content>
+         <figure id="img-div">
+    <iframe
+      id="top-vid"
+      src="10000000_934035300331624_7208138559242348617_n.mp4"
+      alt="Pancakes" frameborder="0"  cellspacing="0"
+      
+    ></iframe>
+    <figcaption id="img-caption">
+      "Clarke"
+    </figcaption>
+  </figure>
+        <section id="tribute-info">
+          <h3 id="headline">
+           This I made with a software and a recorder. 
+          </h3>
+          <p id="listname">Original tracks:</p>
+          <div id='playlist'>
+          <div id="track">
+          <audio controls><source src="vesna(ua).mp3" type="audio/mpeg"/></audio>
+          <p id="label">Vesna</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="картопля(1).mp3" type="audio/mpeg"/></audio>
+            <p id="label">Potato</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="unknown.mp3" type="audio/mpeg"/></audio>
+            <p id="label">Unknown</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="saturday morning.mp3" type="audio/mpeg"/></audio>
+            <p id="label">Saturday morning</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="on the train.mp3" type="audio/mpeg"/></audio>
+            <p id="label">On the train</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="mess.mp3" type="audio/mpeg"/></audio>
+            <p id="label">Mess</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="meow(1).mp3" type="audio/mpeg"/></audio>
+            <p id="label">Meow</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="lullaby.mp3" type="audio/mpeg"/></audio>
+            <p id="label">Lullaby</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="don't fall (asleep).mp3" type="audio/mpeg"/></audio>
+            <p id="label">Don't fall asleep</p>
+          </div>
+        </div>
+        <p id="listname">Covers:</p>
+         <div id="playlist">
+          <div id="track">
+            <audio controls><source src="gracious tempest.mp3" type="audio/mpeg"/></audio>
+            <p id="label">Hillsong — Gracious tempest</p>
+          </div>
+          <div id="track">
+            <audio controls><source src="clean_cover_hillsong.mp3" type="audio/mpeg"/></audio>
+            <p id="label">Hillsong — Clean</p>
+          </div>
+         </div>   
+          </section>
+          <section>
+            
+            <p id="listname">Piano:</p>
+            <div id="gallery-container">
+            <div id="track"><iframe id="gallery"
+              src="Новый проект.mp4">
+            </iframe><p id="label">Tshaikovsky — Valse sentimentale</p>
+          </div>
+          <div id="track"><iframe id="gallery"
+              src="93839186_140193574222756_6531749569106658625_n.mp4">
+            </iframe><p id="label">Original impromptu</p>
+          </div>
+          <div id="track"><iframe id="gallery"
+              src="7yrs.mp4">
+            </iframe><p id="label">Lukas Graham — 7 years</p>
+          </div>
+          </div> 
+          </section>
+      </content>
+      <footer>
+        <h3 id="bye"> I hope you enjoyed!</h3>
+        <h4>my <a href="instagram.com/kallisto.exe">Instagram</h4></p>
+      </footer>
+    </main>
+</body>
+</html>
