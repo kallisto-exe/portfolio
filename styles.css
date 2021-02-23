@@ -13,7 +13,7 @@ html{
   }
   #main{
   
-  //background-image:url(bg.jpg);
+  
   background-color:gainsboro;
     border-radius: 10px;
    line-height: 1.5;
@@ -23,6 +23,28 @@ html{
     border-radius: 10px;
     background-attachment: fixed;
   }
+  header{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  #nav{
+    font-size:1.5vw;
+    margin:0px 15px;  
+    
+  }
+  #navlink{
+    text-decoration: none;
+  }
+  @media(max-width:1000px){
+    #nav{font-size:2vw;
+    }
+  }
+  @media(max-width:800px){
+    #nav{font-size:3.5vw;
+    }
+  }
+
   #title{
     font-size:4.6vw;
    
@@ -45,7 +67,7 @@ html{
   }
  
   #img-div {
-    background: rgb(240, 233, 233);
+    background: rgb(255, 255, 255);
     padding: 10px;
     margin: 0;
     
@@ -61,7 +83,7 @@ html{
     #headline{
       font-size:6vw;
     }
-    #listname{
+    #listname, p{
       font-size:4vw;
     }
     h3,h4{
@@ -71,7 +93,7 @@ html{
   
   p{
     font-size:2rem;
-    //background-color: gainsboro;
+   
    
   }
  
@@ -119,7 +141,7 @@ html{
     height: 300px;
   }
 
-  #listname{
+  #listname, p{
     padding:8px 0px;
   }
   
@@ -192,6 +214,7 @@ html{
   }
   a {
     color: hsl(180, 70%, 30%);
+    text-decoration: none;
   }
   
   a:visited {
