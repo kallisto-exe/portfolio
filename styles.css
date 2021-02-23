@@ -64,12 +64,17 @@ html{
     #listname{
       font-size:4vw;
     }
+    h3,h4{
+      font-size:3vw;
+    }
   }
+  
   p{
     font-size:2rem;
     //background-color: gainsboro;
    
   }
+ 
   section{
     display:inline-block;
    
@@ -81,10 +86,10 @@ html{
 
 
   #piano-vid{
-    background-color: rgb(190, 188, 188);
+    background-color: rgb(211, 211, 211);
   }
   #electro{
-    background-color: rgb(190, 188, 188);
+    background-color: rgb(211, 211, 211);
   }
   @media (max-width:1300px){
     section{
